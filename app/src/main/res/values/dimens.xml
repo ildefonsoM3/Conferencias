@@ -10,4 +10,9 @@
     
     <dimen name="tamanoSubtitulo">15sp</dimen>
     <dimen name="separacionHeightImageViewHome">25dp</dimen>
+
+    <dimen name="itemScheduleTitulo">30sp</dimen>
+    <dimen name="itemScheduleSubTitulo">20sp</dimen>
+
+    <dimen name="itemScheduleMarginLeft">10dp</dimen>
 </resources>
