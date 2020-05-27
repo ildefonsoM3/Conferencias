@@ -9,4 +9,5 @@
     <dimen name="marginHomeSubtitulo">10dp</dimen>
     
     <dimen name="tamanoSubtitulo">15sp</dimen>
+    <dimen name="separacionHeightImageViewHome">25dp</dimen>
 </resources>

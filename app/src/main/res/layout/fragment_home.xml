@@ -65,6 +65,70 @@
                         android:textSize="@dimen/tamanoSubtitulo"
                         android:textStyle="normal" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/separacionHeightImageViewHome" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/altoImageViewHome"
+                        android:src="@drawable/platzi_conf_2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:text="@string/inicio_frag_tv_por_que"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/tamanoTitulo"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:text="@string/inicio_frag_tv_por_que_resp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/tamanoSubtitulo"
+                        android:textStyle="normal" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/separacionHeightImageViewHome" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/altoImageViewHome"
+                        android:src="@drawable/platzi_conf_3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:text="@string/inicio_frag_tv_info"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/tamanoTitulo"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/marginHomeSubtitulo"
+                        android:layout_marginTop="@dimen/marginHomeSubtitulo"
+                        android:layout_marginRight="@dimen/marginHomeSubtitulo"
+                        android:text="@string/inicio_frag_tv_info_resp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/tamanoSubtitulo"
+                        android:textStyle="normal" />
+
 
                 </LinearLayout>
 
