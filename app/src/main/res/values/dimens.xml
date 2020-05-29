@@ -15,4 +15,6 @@
     <dimen name="itemScheduleSubTitulo">20sp</dimen>
 
     <dimen name="itemScheduleMarginLeft">10dp</dimen>
+
+    <dimen name="imagenSpeakerDetail">105dp</dimen>
 </resources>
