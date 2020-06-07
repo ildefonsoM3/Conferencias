@@ -3,20 +3,20 @@
     <item
         android:id="@+id/navHomeFragment"
         android:icon="@drawable/ic_nav_home"
-        android:title="Inicio" />
+        android:title="@string/menu_home" />
 
     <item
-        android:id="@+id/navCronogramaFragment"
+        android:id="@+id/navScheduleFragment"
         android:icon="@drawable/ic_nav_scheduled"
-        android:title="Cronograma" />
+        android:title="@string/menu_shedule" />
 
     <item
         android:id="@+id/navSpeakersFragment"
         android:icon="@drawable/ic_nav_speakers"
-        android:title="Expositores" />
+        android:title="@string/menu_speakers" />
 
     <item
         android:id="@+id/navMapFragment"
         android:icon="@drawable/ic_nav_map"
-        android:title="Map" />
+        android:title="@string/menu_map" />
 </menu>

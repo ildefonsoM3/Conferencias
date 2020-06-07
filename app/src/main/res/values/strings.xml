@@ -20,4 +20,10 @@ Porque en esta versión todo girará al rededor de la pregunta: ¿Qué habilidad
 
     <string name="descripcionSpeaker_frag_sp_dt_dlg">Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad.</string>
 
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_shedule">Cronograma</string>
+    <string name="menu_speakers">Expositores</string>
+    <string name="menu_map">Map</string>
+
 </resources>
