@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/altoImageViewHome"
             android:layout_margin="10dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_launcher_round" />
 
         <TextView
             android:layout_width="match_parent"
