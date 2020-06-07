@@ -36,8 +36,7 @@
                 android:layout_height="@dimen/imagenSpeakerDetail"
                 android:layout_gravity="center_horizontal"
                 android:src="@mipmap/ic_launcher_round"
-                app:civ_border_color="#FF000000"
-                app:civ_border_width="7dp" />
+                app:civ_border_width="2dp" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -88,10 +87,10 @@
                         android:textStyle="normal" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="40dp"
-                        android:src="@drawable/icons-twitter"
-                        android:layout_gravity="center_horizontal"/>
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_icons_twitter" />
 
                     <TextView
                         android:id="@+id/tvSpeakerDetailBiografia"
@@ -100,7 +99,7 @@
                         android:layout_centerInParent="true"
                         android:layout_margin="5dp"
                         android:gravity="center_horizontal"
-                        android:text="Trabajo"
+                        android:text="@string/descripcionSpeaker_frag_sp_dt_dlg"
                         android:textColor="@color/colorPrimary"
                         android:textSize="13sp"
                         android:textStyle="normal" />

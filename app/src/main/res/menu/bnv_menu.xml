@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHomeFragment"
+        android:icon="@drawable/ic_nav_home"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/navCronogramaFragment"
+        android:icon="@drawable/ic_nav_scheduled"
+        android:title="Cronograma" />
+
+    <item
+        android:id="@+id/navSpeakersFragment"
+        android:icon="@drawable/ic_nav_speakers"
+        android:title="Expositores" />
+
+    <item
+        android:id="@+id/navMapFragment"
+        android:icon="@drawable/ic_nav_map"
+        android:title="Map" />
+</menu>
