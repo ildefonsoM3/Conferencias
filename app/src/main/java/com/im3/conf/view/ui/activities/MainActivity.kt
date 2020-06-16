@@ -1,14 +1,8 @@
-package com.im3.conf
+package com.im3.conf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.firebase.firestore.FirebaseFirestore
-import com.google.gson.JsonObject
-import com.im3.conf.model.Conference
-import com.im3.conf.model.Speaker
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
+import com.im3.conf.R
 
 class MainActivity : AppCompatActivity() {
 

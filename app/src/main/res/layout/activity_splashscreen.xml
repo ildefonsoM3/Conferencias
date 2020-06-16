@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".ui.activities.splashscreenActivity">
+    tools:context=".view.ui.activities.splashscreenActivity">
 
     <ImageView
         android:id="@+id/ivLogoPlatziConf"

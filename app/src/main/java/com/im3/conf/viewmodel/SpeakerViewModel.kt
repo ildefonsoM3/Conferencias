@@ -8,7 +8,7 @@ import java.lang.Exception
 
 class SpeakerViewModel {
     val firestoreService = FirestoreService()
-    var listSpeaker: MutableLiveData<List<Speaker>> = MutableLiveData()
+    var listSpeakers: MutableLiveData<List<Speaker>> = MutableLiveData()
     var isLoading = MutableLiveData<Boolean>()
 
     fun refresh() {
@@ -18,14 +18,17 @@ class SpeakerViewModel {
     fun getSpeakerFromFirebase() {
         firestoreService.getSpeakers(object : Callback<List<Speaker>> {
             override fun onSuccess(result: List<Speaker>?) {
+                listSpeakers.postValue(result)
+                processFinished()
             }
 
             override fun onFailed(exception: Exception) {
-                TODO("Not yet implemented")
+                processFinished()
             }
         })
     }
-    fun processFinished(){
+
+    fun processFinished() {
         isLoading.value = true
     }
 }
