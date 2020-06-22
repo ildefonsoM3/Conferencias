@@ -13,25 +13,28 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/ivSpeakerImage"
             android:layout_width="match_parent"
             android:layout_height="@dimen/altoImageViewHome"
             android:layout_margin="10dp"
             android:src="@mipmap/ic_launcher_round" />
 
         <TextView
+            android:id="@+id/tvSpeakerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:text="Nombre Expositor"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/tamanoTitulo"
-            android:textStyle="bold"
-            android:gravity="center_horizontal"/>
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvSpeakerJob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Trabajo Expositor"
             android:gravity="center_horizontal"
+            android:text="Trabajo Expositor"
             android:textColor="@color/colorAccent"
             android:textSize="@dimen/tamanoSubtitulo"
             android:textStyle="normal" />

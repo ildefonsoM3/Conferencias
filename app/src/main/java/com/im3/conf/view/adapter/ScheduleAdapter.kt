@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.im3.conf.model.Conference
 import com.im3.conf.R
@@ -43,6 +42,10 @@ class ScheduleAdapter(val scheduleListener: ScheduleListener) : RecyclerView.Ada
 
         holder.tvConferenceHour.text = hourFormat
         holder.tvConferenceAMPM.text = simpleDateFormatAMPM.format(conference.datetime).toUpperCase()
+
+        holder.itemView.setOnClickListener {
+            scheduleListener.onConferenceClicked(conference, position)
+        }
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

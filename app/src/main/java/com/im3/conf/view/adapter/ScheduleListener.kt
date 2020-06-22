@@ -1,7 +1,5 @@
 package com.im3.conf.view.adapter
 
-import android.telecom.Conference
-
 interface ScheduleListener {
-    fun onConferenceClicked(conference: Conference, position: Int)
+    fun onConferenceClicked(conference: com.im3.conf.model.Conference, position: Int)
 }
