@@ -1,6 +1,5 @@
 package com.im3.conf.view.ui.fragments
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -43,11 +42,11 @@ class ScheduleFragment : Fragment(), ScheduleListener {
         observeViewModel()
     }
 
-    @SuppressLint("FragmentLiveDataObserve")
     fun observeViewModel() {
         viewModel.listSchedule.observe(this, Observer<List<Conference>> { schedule ->
-            scheduleAdapter.updateDate(schedule)
+            scheduleAdapter.updateData(schedule)
         })
+
         viewModel.isLoading.observe(this, Observer<Boolean> {
             if (it != null) {
                 rlBaseSchedule.visibility = View.INVISIBLE

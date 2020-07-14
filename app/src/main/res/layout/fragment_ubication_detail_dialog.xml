@@ -17,7 +17,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -47,7 +48,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/tvDetailConferenceHour"
+                            android:id="@+id/tvDetailNombreLugar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true"
@@ -70,6 +71,7 @@
                                 android:src="@drawable/ic_pin" />
 
                             <TextView
+                                android:id="@+id/tvUbicationDireccion"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -87,6 +89,7 @@
                             android:background="@color/colorPrimary" />
 
                         <LinearLayout
+                            android:id="@+id/llTelefonoLugar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
@@ -98,6 +101,7 @@
                                 android:src="@drawable/ic_phone" />
 
                             <TextView
+                                android:id="@+id/tvUbicationTelefono"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -115,6 +119,7 @@
                             android:background="@color/colorPrimary" />
 
                         <LinearLayout
+                            android:id="@+id/llSitioWeb"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
@@ -126,6 +131,7 @@
                                 android:src="@drawable/ic_url" />
 
                             <TextView
+                                android:id="@+id/tvUbicationWebsite"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
